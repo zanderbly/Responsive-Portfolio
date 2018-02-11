@@ -237,3 +237,51 @@ input[type=submit] {
   background: #4aaaa5;  
   border: 0 none;
 }
+
+/* media queries per 2nd hw assignment */
+
+
+/*
+@media screen and (min-width: 769px) {
+
+}
+*/
+
+@media only screen and (max-width: 980px) {
+
+  .main-section {
+    width: 50%;
+  }
+
+  #masthead {
+    float:none;
+    width:100%;
+  }
+
+  .sidebar {
+    float: left;
+    width: 35%;
+    padding: 30px;
+  }
+
+
+@media screen and (max-width:640px) {
+    #masthead {
+    position: static;
+    float:none;
+    width:100%;
+}
+    
+   nav {
+      /*margin-left: 23.5%;*/
+      margin-right: 20%;
+    }
+    nav a {
+    padding: 0px 20px 20px 20px;
+    display: inline-block;
+}
+
+
+
+
+
