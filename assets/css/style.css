@@ -249,6 +249,14 @@ input[type=submit] {
 
 @media only screen and (max-width: 980px) {
 
+  #selfphoto {
+    float: none;
+    width: 100%;
+  }
+
+
+  }
+/*
   .main-section {
     width: 50%;
   }
@@ -264,7 +272,7 @@ input[type=submit] {
     padding: 30px;
   }
 
-
+/*
 @media screen and (max-width:640px) {
     #masthead {
     position: static;
@@ -273,12 +281,14 @@ input[type=submit] {
 }
     
    nav {
-      /*margin-left: 23.5%;*/
+      
       margin-right: 20%;
     }
     nav a {
     padding: 0px 20px 20px 20px;
     display: inline-block;
+
+    /*I don't know what the f*** I'm doing*/
 }
 
 
